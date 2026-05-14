@@ -1,0 +1,27 @@
+{
+    "hajj_live": {
+        "status": "coming_soon",
+        "stream_id": "dQw4w9WgXcQ",
+        "stream_platform": "youtube",
+        "title": "Hajj Live 1446",
+        "subtitle": "Live from Makkah Al-Mukarramah",
+        "description": "Watch the blessed Hajj journey live",
+        "thumbnail_url": "https://example.com/hajj-thumb.jpg",
+        "scheduled_date": "2025-06-05",
+        "scheduled_time_utc": "06:00:00",
+        "coming_soon_message": "Hajj Live streaming will begin soon. Stay tuned for this blessed event.",
+        "error_message": "The live stream is currently unavailable. Please try again later.",
+        "stream_ended_message": "JazakAllah Khair for watching. The Hajj Live stream has ended.",
+        "retry_config": {
+            "max_retries": 5,
+            "retry_intervals_seconds": [
+                5,
+                15,
+                30,
+                60,
+                120
+            ]
+        },
+        "last_updated": "2025-01-01T00:00:00Z"
+    }
+}
